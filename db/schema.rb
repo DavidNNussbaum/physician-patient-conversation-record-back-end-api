@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_10_201511) do
+ActiveRecord::Schema.define(version: 2021_11_04_124523) do
 
   create_table "conversations", force: :cascade do |t|
-    t.datetime "date_time", null: false
+    t.string "date_time", null: false
     t.text "details", null: false
     t.boolean "issue_resolved", null: false
     t.integer "patient_id"
